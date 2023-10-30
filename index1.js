@@ -1,21 +1,11 @@
-<html>
-    <head>
-        let a=500;
-        let b=300;
-        let c=23;
-        let max,min
-        if (a>b){
-           max=a
-           min=b
-        }
-        else if{
-        max=b
-        min=c
-        }
-        else{
-            max=c
-            min=a
-        }
-        console
-    </head>
-</html>
+let num = 1456
+let r
+let sum =0
+while(num != 0){
+    r = num % 10
+    num = num / 10
+    num = parseInt(num,10)
+    sum = sum + r
+}
+
+console.log("sum--->"+sum)
